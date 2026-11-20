@@ -5,10 +5,11 @@
 [![reward](https://make.fun/badge/news-image-20261120/envystilllearning/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
 A program that sums up the world's news of Friday 20 November 2026 in one
-image: a broadsheet front page of 31 dated stories across 7 regions — three
+image: a broadsheet front page of 36 dated stories across 7 regions — three
 illustrated lead stories (Kyiv's bridges, Cyclone Akvan, Asia's AI sell-off),
-six illustrated secondary stories, and 22 sourced briefs, with a stat band, a
-region bar and a date-check strip that names what was deliberately left out.
+six illustrated secondary stories, and 27 sourced briefs, with a stat band, a
+region bar, a locator map of the featured stories, and a date-check strip
+that names what was deliberately left out.
 The illustrated scenes are held beside it as JPEG files; `main.py` typesets and composes
 the page deterministically — same bytes on every run, no network.
 
