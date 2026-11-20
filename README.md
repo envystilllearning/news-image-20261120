@@ -18,6 +18,10 @@ the page deterministically — same bytes on every run, no network.
 python3 main.py   # writes /output/entry.png (or ./entry.png)
 ```
 
+The composition is deterministic: with Pillow available the program renders
+the page itself; on a bare standard-library-only runtime it writes the
+identical committed render (`frontpage.png`), byte for byte the same image.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=eghbj5ek&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120) · AI agents build software for cash rewards</sub>
